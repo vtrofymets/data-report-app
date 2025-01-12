@@ -1,0 +1,4 @@
+Team, Total Effort, Remaining Effort
+UI, 7, 37028.57142857143
+London, 5, 20880.0
+India, 6, 18600.0

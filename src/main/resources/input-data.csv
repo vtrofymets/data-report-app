@@ -1,0 +1,531 @@
+Issue key,Issue id,Parent id,Summary,Status,Issue Type,Original Estimate,Priority,Team
+MCPU-10140,2748508,2660783,QA Design- Notify Parties Assignment Confirmed,Open,Sub-task,28800,Medium,London
+MCPU-10139,2748506,2729720,QA Acceptance - Submit and Match Assignment,Open,Sub-task,1800,Medium,London
+MCPU-10137,2748486,2660772,QA Acceptance - Submit and Mismatch Assignment,Open,Sub-task,1800,Medium,London
+MCPU-10134,2748379,2667218,Exercise Submission,Open,Sub-task,43200,Medium,UI
+MCPU-10133,2748378,2667218,Provide payload,Open,Sub-task,14400,Medium,UI
+MCPU-10132,2748340,2735214,QA Design - Manage Disable via FpML,Open,Sub-task,57600,Medium,London
+MCPU-10122,2748283,2671006,Fetch and Display Suggested matching candidates,Open,Sub-task,57600,Medium,UI
+MCPU-10121,2748282,2671003,Show best match percentage n Grid - E2E Verification,Open,Sub-task,28800,Medium,UI
+MCPU-10120,2748281,2671271,Compare Matching fields on UI,Open,Sub-task,43200,Medium,UI
+MCPU-10118,2748276,2671277,Partial Allege Submission,Open,Sub-task,28800,Medium,UI
+MCPU-10117,2748275,2671277,Full Allege Submission,Open,Sub-task,43200,Medium,UI
+MCPU-10116,2748269,2735217,Upgrade normalised & serialization version to support Disable event in RegServ,Open,Sub-task,14400,Medium,London
+MCPU-10115,2748240,2746173,QA Execution - Submit Regulatory Reporting fields via MQ - Assignment - OR submission,Open,Sub-task,28800,Medium,India
+MCPU-10114,2748239,2746173,QA Implementation - Submit Regulatory Reporting fields via MQ - Assignment - OR submission,Open,Sub-task,21600,Medium,India
+MCPU-10113,2748238,2746173,QA Design - Submit Regulatory Reporting fields via MQ - Assignment - OR submission,Open,Sub-task,7200,Medium,India
+MCPU-10112,2748237,2746174,QA Peer Review - Submit Regulatory Reporting fields via MQ - Assignment - EE submission,Open,Sub-task,3600,Medium,India
+MCPU-10111,2748236,2746174,QA Execution - Submit Regulatory Reporting fields via MQ - Assignment - EE submission,Open,Sub-task,28800,Medium,India
+MCPU-10110,2748235,2746174,QA Implementation - Submit Regulatory Reporting fields via MQ - Assignment - EE submission,Open,Sub-task,21600,Medium,India
+MCPU-10109,2748234,2746174,QA Design - Submit Regulatory Reporting fields via MQ - Assignment - EE submission,Open,Sub-task,10800,Medium,India
+MCPU-10108,2748233,2746174,QA Acceptance Test - Submit Regulatory Reporting fields via MQ - Assignment - EE submission,Open,Sub-task,3600,Medium,India
+MCPU-10107,2748232,2746175,QA Peer Review - Submit Regulatory Reporting fields via MQ - Assignment - RP submission,Open,Sub-task,3600,Medium,India
+MCPU-10106,2748231,2746175,QA Execution - Submit Regulatory Reporting fields via MQ - Assignment - RP submission,Open,Sub-task,28800,Medium,India
+MCPU-10105,2748229,2746175,QA Implementation - Submit Regulatory Reporting fields via MQ - Assignment - RP submission,Open,Sub-task,21600,Medium,India
+MCPU-10104,2748228,2746175,QA Design - Submit Regulatory Reporting fields via MQ - Assignment - RP submission,Open,Sub-task,10800,Medium,India
+MCPU-10103,2748227,2746175,QA Acceptance Test - Submit Regulatory Reporting fields via MQ - Assignment - RP submission,Open,Sub-task,3600,Medium,India
+MCPU-10102,2748226,2734261,QA Peer Review - Regulatory Reporting - Update Position Record for Confirmed Trade/Termination/Amendment for Reg Reporting fields,Open,Sub-task,3600,Medium,India
+MCPU-10101,2748225,2734261,QA Execution - Regulatory Reporting - Update Position Record for Confirmed Trade/Termination/Amendment for Reg Reporting fields,Open,Sub-task,21600,Medium,India
+MCPU-10100,2748224,2734261,QA Implementation - Regulatory Reporting - Update Position Record for Confirmed Trade/Termination/Amendment for Reg Reporting fields,Open,Sub-task,14400,Medium,India
+MCPU-10099,2748223,2734261,QA Design - Regulatory Reporting - Update Position Record for Confirmed Trade/Termination/Amendment for Reg Reporting fields,Open,Sub-task,7200,Medium,India
+MCPU-10098,2748222,2734261,QA Acceptance Test - Regulatory Reporting - Update Position Record for Confirmed Trade/Termination/Amendment for Reg Reporting fields,Open,Sub-task,3600,Medium,India
+MCPU-10097,2748219,2735411,QA Execution - Submit Regulatory Reporting fields via csv - Assignment - OR submission,Open,Sub-task,28800,Medium,India
+MCPU-10096,2748218,2735411,QA Implementation - Submit Regulatory Reporting fields via csv - Assignment - OR submission,Open,Sub-task,21600,Medium,India
+MCPU-10095,2748217,2735411,QA Design - Submit Regulatory Reporting fields via csv - Assignment - OR submission,Open,Sub-task,7200,Medium,India
+MCPU-10094,2748216,2736807,QA Peer Review - Submit Regulatory Reporting fields via csv - Assignment - EE submission,Open,Sub-task,3600,Medium,India
+MCPU-10093,2748215,2736807,QA Execution - Submit Regulatory Reporting fields via csv - Assignment - EE submission,Open,Sub-task,28800,Medium,India
+MCPU-10092,2748214,2736807,QA Implementation - Submit Regulatory Reporting fields via csv - Assignment - EE submission,Open,Sub-task,21600,Medium,India
+MCPU-10091,2748213,2736807,QA Design - Submit Regulatory Reporting fields via csv - Assignment - EE submission,Open,Sub-task,10800,Medium,India
+MCPU-10090,2748212,2736807,QA Acceptance Test - Submit Regulatory Reporting fields via csv - Assignment - EE submission,Open,Sub-task,3600,Medium,India
+MCPU-10089,2748211,2741860,QA Peer Review - Submit Regulatory Reporting fields via csv - Assignment - RP submission,Open,Sub-task,3600,Medium,India
+MCPU-10088,2748210,2741860,QA Execution - Submit Regulatory Reporting fields via csv - Assignment - RP submission,Open,Sub-task,28800,Medium,India
+MCPU-10087,2748209,2741860,QA Implementation - Submit Regulatory Reporting fields via csv - Assignment - RP submission,Open,Sub-task,21600,Medium,India
+MCPU-10086,2748208,2741860,QA Design - Submit Regulatory Reporting fields via csv - Assignment - RP submission,In Progress,Sub-task,10800,Medium,India
+MCPU-10085,2748207,2741860,QA Acceptance Test - Submit Regulatory Reporting fields via csv - Assignment - RP submission,Open,Sub-task,3600,Medium,India
+MCPU-10084,2748205,2741930,QA Peer Review - Reg Reporting - Unconfirmed Output Message Mappings and Enrichment rules - Assignment - EE,Open,Sub-task,3600,Medium,India
+MCPU-10083,2748204,2741930,QA Execution - Reg Reporting - Unconfirmed Output Message Mappings and Enrichment rules - Assignment - EE,Open,Sub-task,3600,Medium,India
+MCPU-10082,2748203,2741930,QA Implementation - Reg Reporting - Unconfirmed Output Message Mappings and Enrichment rules - Assignment - EE,Open,Sub-task,14400,Medium,India
+MCPU-10081,2748202,2741930,QA Design - Reg Reporting - Unconfirmed Output Message Mappings and Enrichment rules - Assignment - EE,Open,Sub-task,7200,Medium,India
+MCPU-10080,2748201,2741930,QA Acceptance Test - Reg Reporting - Unconfirmed Output Message Mappings and Enrichment rules - Assignment - EE,Open,Sub-task,3600,Medium,India
+MCPU-10079,2748200,2741937,QA Peer Review - Reg Reporting - Allege Output Message Mappings and Enrichment rules - Assignment - OR/RP/EE,Open,Sub-task,3600,Medium,India
+MCPU-10078,2748199,2741937,QA Execution - Reg Reporting - Allege Output Message Mappings and Enrichment rules - Assignment - OR/RP/EE,Open,Sub-task,3600,Medium,India
+MCPU-10077,2748198,2741937,QA Implementation - Reg Reporting - Allege Output Message Mappings and Enrichment rules - Assignment - OR/RP/EE,Open,Sub-task,36000,Medium,India
+MCPU-10076,2748197,2741937,QA Design - Reg Reporting - Allege Output Message Mappings and Enrichment rules - Assignment - OR/RP/EE,Open,Sub-task,14400,Medium,India
+MCPU-10075,2748196,2741937,QA Acceptance Test - Reg Reporting - Allege Output Message Mappings and Enrichment rules - Assignment - OR/RP/EE,Open,Sub-task,3600,Medium,India
+MCPU-10074,2748194,2660786,QA Acceptance Test - Register Assignment with TIW,Open,Sub-task,0,Medium,London
+MCPU-10072,2748190,2660772,QA Peer Review - Submit and Mismatch Assignment,Open,Sub-task,1800,Medium,London
+MCPU-10071,2748189,2660772,QA Execution - Submit and Mismatch Assignment,Open,Sub-task,28800,Medium,London
+MCPU-10070,2748188,2660772,QA Implementation - Submit and Mismatch Assignment,Open,Sub-task,28800,Medium,London
+MCPU-10069,2748187,2660772,QA Design - Submit and Mismatch Assignment,Open,Sub-task,28800,Medium,London
+MCPU-10068,2748186,2660783,QA Peer Review - Notify Parties Assignment Confirmed,Open,Sub-task,1800,Medium,London
+MCPU-10067,2748185,2660783,QA Execution - Notify Parties Assignment Confirmed,Open,Sub-task,28800,Medium,London
+MCPU-10066,2748184,2660783,QA Implementation - Notify Parties Assignment Confirmed,Open,Sub-task,28800,Medium,London
+MCPU-10065,2748183,2660786,QA Peer Review - Register Assignment with TIW,Open,Sub-task,1800,Medium,London
+MCPU-10064,2748182,2660786,QA Execution - Register Assignment with TIW,Open,Sub-task,28800,Medium,London
+MCPU-10063,2748181,2660786,QA Implementation - Register Assignment with TIW,Open,Sub-task,28800,Medium,London
+MCPU-10062,2748180,2660786,QA Design - Register Assignment with TIW,Open,Sub-task,28800,Medium,London
+MCPU-10061,2748179,2660787,QA Peer Review - Notify Parties Assignment Registered ,Open,Sub-task,1800,Medium,London
+MCPU-10060,2748178,2660787,QA Execution - Notify Parties Assignment Registered ,Open,Sub-task,28800,Medium,London
+MCPU-10059,2748177,2660787,QA Implementation - Notify Parties Assignment Registered ,Open,Sub-task,28800,Medium,London
+MCPU-10058,2748176,2660787,QA Design - Notify Parties Assignment Registered ,Open,Sub-task,28800,Medium,London
+MCPU-10057,2748175,2723514,QA Peer Review - Remove RED identifiers from Allege notifications to non RED subscriber,Open,Sub-task,1800,Medium,London
+MCPU-10056,2748174,2728103,QA Peer Review - Error Handling Framework Derived from Error CSV Spreadsheet,Open,Sub-task,1800,Medium,London
+MCPU-10055,2748173,2728103,QA Implementation - Error Handling Framework Derived from Error CSV Spreadsheet,Open,Sub-task,57600,Medium,London
+MCPU-10054,2748172,2728485,QA Peer Review - Credit Trade Cancel - transaction information is lost ,Open,Sub-task,1800,Medium,London
+MCPU-10053,2748171,2728485,QA Execution - Credit Trade Cancel - transaction information is lost ,Open,Sub-task,28800,Medium,London
+MCPU-10052,2748170,2728485,QA Implementation - Credit Trade Cancel - transaction information is lost ,Open,Sub-task,28800,Medium,London
+MCPU-10051,2748169,2728485,QA Design - Credit Trade Cancel - transaction information is lost ,Open,Sub-task,57600,Medium,London
+MCPU-10050,2748168,2728705,QA Peer Review - Manage Assignment via FpML (short form),Open,Sub-task,1800,Medium,London
+MCPU-10049,2748167,2728732,QA Peer Review - Find Match for Assignment,Open,Sub-task,1800,Medium,London
+MCPU-10048,2748166,2729720,QA Peer Review - Submit and Match Assignment,Open,Sub-task,1800,Medium,London
+MCPU-10047,2748165,2729720,QA Execution - Submit and Match Assignment,Open,Sub-task,57600,Medium,London
+MCPU-10046,2748164,2729720,QA Implementation - Submit and Match Assignment,Open,Sub-task,57600,Medium,London
+MCPU-10045,2748163,2729720,QA Design - Submit and Match Assignment,Open,Sub-task,57600,Medium,London
+MCPU-10044,2748161,2735214,QA Peer Review - Manage Disable via FpML,Open,Sub-task,1800,Medium,London
+MCPU-10043,2748160,2735214,QA Execution - Manage Disable via FpML,Open,Sub-task,57600,Medium,London
+MCPU-10042,2748159,2735214,QA Implementation - Manage Disable via FpML,Open,Sub-task,57600,Medium,London
+MCPU-10041,2748158,2735217,QA Peer Review - Submit Unconfirmed Disable,Open,Sub-task,1800,Medium,London
+MCPU-10040,2748157,2735217,QA Execution - Submit Unconfirmed Disable,Open,Sub-task,28800,Medium,London
+MCPU-10039,2748156,2735217,QA Implementation - Submit Unconfirmed Disable,Open,Sub-task,28800,Medium,London
+MCPU-10038,2748155,2735217,QA Design - Submit Unconfirmed Disable,Open,Sub-task,57600,Medium,London
+MCPU-10037,2748149,2747371,Fixes for Amendment package,Open,Sub-task,72000,Medium,London
+MCPU-10036,2748146,2735219,QA Peer Review - Withdraw Disable,Open,Sub-task,1800,Medium,London
+MCPU-10035,2748145,2735219,QA Execution - Withdraw Disable,Open,Sub-task,28800,Medium,London
+MCPU-10034,2748144,2735219,QA Implementation - Withdraw Disable,Open,Sub-task,28800,Medium,London
+MCPU-10033,2748143,2735219,QA Design - Withdraw Disable,Open,Sub-task,28800,Medium,London
+MCPU-10032,2748140,2737583,QA Peer Review - Store FpML Initial Payment as JSON Single Payment for CDS Product,Open,Sub-task,1800,Medium,London
+MCPU-10031,2748139,2737583,QA Execution - Store FpML Initial Payment as JSON Single Payment for CDS Product,Open,Sub-task,14400,Medium,London
+MCPU-10030,2748138,2737583,QA Implementation - Store FpML Initial Payment as JSON Single Payment for CDS Product,Open,Sub-task,14400,Medium,London
+MCPU-10029,2748137,2737583,QA Design - Store FpML Initial Payment as JSON Single Payment for CDS Product,Open,Sub-task,28800,Medium,London
+MCPU-10028,2748136,2742625,QA Peer Review - Update Position Record for Confirmed Assignment,Open,Sub-task,14400,Medium,London
+MCPU-10026,2748130,2633256,QA Peer Review - GUI - Workflow Update,Open,Sub-task,0,Medium,Kiev
+MCPU-10015,2747608,2421036,Add database scripts to populate the necessary resources/entitlements/groups,In Progress,Sub-task,43200,High,Kiev
+MCPU-10014,2747596,2732652,Merge accept request for changes in enrich-Credit-Pre,Open,Sub-task,0,Medium,NY
+MCPU-10013,2747578,2646788,QA Peer Review - Enrich Event - Upper Case Business Centres Currencies and Identifiers,Open,Sub-task,7200,Medium,London
+MCPU-10012,2747577,2646788,QA Exploratory - Enrich Event - Upper Case Business Centres Currencies and Identifiers,Open,Sub-task,7200,Medium,London
+MCPU-10011,2747575,2646788,QA Acceptance Test - Enrich Event - Upper Case Business Centres Currencies and Identifiers,Open,Sub-task,3600,Medium,London
+MCPU-10010,2747573,2666097,QA Peer Review - UI Submitter - Entity/Product selection in grid,Open,Sub-task,3600,Medium,UI
+MCPU-10009,2747571,2666097,QA Execution - UI Submitter - Entity/Product selection in grid,Open,Sub-task,18000,Medium,UI
+MCPU-10008,2747569,2666097,QA Design - UI Submitter - Entity/Product selection in grid,Open,Sub-task,3600,Medium,UI
+MCPU-10007,2747568,2666097,QA Acceptance Test - UI Submitter - Entity/Product selection in grid,Open,Sub-task,3600,Medium,UI
+MCPU-9994,2747551,2667224,QA Peer Review - GUI - Exercise - View history message,Open,Sub-task,3600,Medium,UI
+MCPU-9993,2747549,2667224,QA Execution - GUI - Exercise - View history message,Open,Sub-task,10800,Medium,UI
+MCPU-9992,2747548,2667224,QA Design - GUI - Exercise - View history message,Open,Sub-task,3600,Medium,UI
+MCPU-9991,2747547,2667224,QA Acceptance Test - GUI - Exercise - View history message,Open,Sub-task,3600,Medium,UI
+MCPU-9990,2747546,2667221,QA Peer Review - GUI - Exercise submit,Open,Sub-task,3600,Medium,UI
+MCPU-9989,2747545,2667221,QA Execution - GUI - Exercise submit,Open,Sub-task,25200,Medium,UI
+MCPU-9988,2747544,2667221,QA Design - GUI - Exercise submit,Open,Sub-task,3600,Medium,UI
+MCPU-9987,2747543,2667221,QA Acceptance Test - GUI - Exercise submit,Open,Sub-task,3600,Medium,UI
+MCPU-9986,2747542,2667226,QA Peer Review - GUI - Exercise - View Trade,Open,Sub-task,3600,Medium,UI
+MCPU-9985,2747538,2667226,QA Execution - GUI - Exercise - View Trade,Open,Sub-task,14400,Medium,UI
+MCPU-9984,2747537,2667226,QA Design - GUI - Exercise - View Trade,Open,Sub-task,3600,Medium,UI
+MCPU-9983,2747536,2667226,QA Acceptance Test - GUI - Exercise - View Trade,Open,Sub-task,3600,Medium,UI
+MCPU-9982,2747535,2667218,QA Peer Review - GUI - Exercise action,Open,Sub-task,3600,Medium,UI
+MCPU-9981,2747534,2667218,QA Execution - GUI - Exercise action,Open,Sub-task,3600,Medium,UI
+MCPU-9980,2747533,2667218,QA Design - GUI - Exercise action,Open,Sub-task,3600,Medium,UI
+MCPU-9979,2747532,2667218,QA Acceptance Test - GUI - Exercise action,Open,Sub-task,3600,Medium,UI
+MCPU-9978,2747531,2667219,QA Peer Review - GUI - Exercise trade capture,Open,Sub-task,3600,Medium,UI
+MCPU-9977,2747530,2667219,QA Execution - GUI - Exercise trade capture,Open,Sub-task,21600,Medium,UI
+MCPU-9976,2747529,2667219,QA Design - GUI - Exercise trade capture,Open,Sub-task,3600,Medium,UI
+MCPU-9975,2747528,2667219,QA Acceptance Test - GUI - Exercise trade capture,Open,Sub-task,3600,Medium,UI
+MCPU-9974,2747527,2670233,QA Peer Review - GUI - Reg - Submit - Allege - Termination,Open,Sub-task,3600,Medium,UI
+MCPU-9973,2747526,2670233,QA Execution - GUI - Reg - Submit - Allege - Termination,Open,Sub-task,14400,Medium,UI
+MCPU-9972,2747525,2670233,QA Design - GUI - Reg - Submit - Allege - Termination,Open,Sub-task,3600,Medium,UI
+MCPU-9971,2747524,2670233,QA Acceptance Test - GUI - Reg - Submit - Allege - Termination,Open,Sub-task,3600,Medium,UI
+MCPU-9970,2747523,2670230,QA Peer Review - GUI - Reg - Submit - Allege - Amendment,Open,Sub-task,3600,Medium,UI
+MCPU-9969,2747522,2670230,QA Execution - GUI - Reg - Submit - Allege - Amendment,Open,Sub-task,18000,Medium,UI
+MCPU-9968,2747521,2670230,QA Design - GUI - Reg - Submit - Allege - Amendment,Open,Sub-task,3600,Medium,UI
+MCPU-9967,2747520,2670230,QA Acceptance Test - GUI - Reg - Submit - Allege - Amendment,In Progress,Sub-task,3600,Medium,UI
+MCPU-9966,2747519,2650991,QA Peer Review - Amendment - Accept Allege,Open,Sub-task,3600,Medium,UI
+MCPU-9965,2747518,2650991,QA Execution - Amendment - Accept Allege,Open,Sub-task,36000,Medium,UI
+MCPU-9964,2747517,2650991,QA Design - Amendment - Accept Allege,Open,Sub-task,3600,Medium,UI
+MCPU-9963,2747516,2650991,QA Acceptance Test - Amendment - Accept Allege,In Progress,Sub-task,3600,Medium,UI
+MCPU-9962,2747515,2670237,QA Peer Review - GUI - Reg - Counterparty Rep fields - Termination,Open,Sub-task,3600,Medium,UI
+MCPU-9961,2747514,2670237,QA Execution - GUI - Reg - Counterparty Rep fields - Termination,Open,Sub-task,18000,Medium,UI
+MCPU-9960,2747512,2670237,QA Design - GUI - Reg - Counterparty Rep fields - Termination,Open,Sub-task,3600,Medium,UI
+MCPU-9959,2747511,2670237,QA Acceptance Test - GUI - Reg - Counterparty Rep fields - Termination,Open,Sub-task,3600,Medium,UI
+MCPU-9958,2747510,2670236,QA Peer Review - GUI - Reg - Counterparty Rep fields - Amendment,Open,Sub-task,3600,Medium,UI
+MCPU-9957,2747509,2670236,QA Execution - GUI - Reg - Counterparty Rep fields - Amendment,Open,Sub-task,14400,Medium,UI
+MCPU-9956,2747508,2670236,QA Design - GUI - Reg - Counterparty Rep fields - Amendment,Open,Sub-task,3600,Medium,UI
+MCPU-9955,2747507,2670236,QA Acceptance Test - GUI - Reg - Counterparty Rep fields - Amendment,In Progress,Sub-task,3600,Medium,UI
+MCPU-9954,2747506,2651805,QA Peer Review - Institution Validation Changes - fields becoming optional,Open,Sub-task,3600,Medium,UI
+MCPU-9953,2747504,2651805,QA Execution - GUI - Workflow Update,Open,Sub-task,36000,Medium,UI
+MCPU-9952,2747503,2651805,QA Design - GUI - Workflow Update,Open,Sub-task,3600,Medium,UI
+MCPU-9951,2747500,2651805,QA Acceptance Test - GUI - Workflow Update,Open,Sub-task,3600,Medium,UI
+MCPU-9950,2747498,2670226,QA Peer Review - GUI - Reg fields - Modify - Amendment,Open,Sub-task,3600,Medium,UI
+MCPU-9949,2747497,2670226,QA Execution - GUI - Reg fields - Modify - Amendment,Open,Sub-task,21600,Medium,UI
+MCPU-9948,2747496,2670226,QA Design - GUI - Reg fields - Modify - Amendment,Open,Sub-task,3600,Medium,UI
+MCPU-9947,2747495,2670226,QA Acceptance Test - GUI - Reg fields - Modify - Amendment,In Progress,Sub-task,3600,Medium,UI
+MCPU-9932,2747386,2735217,Request validation changes,In Progress,Sub-task,28800,Medium,London
+MCPU-9931,2747384,2747371,Fixes for GTR_CFTC package,Open,Sub-task,0,Medium,London
+MCPU-9929,2747381,2747371,Fixes for GTR_MJ package,Open,Sub-task,0,Medium,London
+MCPU-9928,2747375,2747371,Fixes for NTP package,Open,Sub-task,0,Medium,London
+MCPU-9927,2747374,2747371,Fixes for error package,Open,Sub-task,0,Medium,London
+MCPU-9925,2747258,2737552,QA Peer Review - Compare CDS Events using singlePayment fields,Open,Sub-task,0,Medium,London
+MCPU-9924,2747254,2737552,QA Execution - Compare CDS Events using singlePayment fields,Open,Sub-task,18000,Medium,London
+MCPU-9923,2747248,2737552,QA Implementation - Compare CDS Events using singlePayment fields,Open,Sub-task,18000,Medium,London
+MCPU-9922,2747244,2737552,QA Design - Compare CDS Events using singlePayment fields,Open,Sub-task,18000,Medium,London
+MCPU-9921,2747240,2737552,QA Acceptance Test - Compare CDS Events using singlePayment fields,Open,Sub-task,3600,Medium,London
+MCPU-9920,2747239,2660783,Review & Test,Open,Sub-task,14400,Medium,London
+MCPU-9919,2747238,2660783,Dev Task: Notify parties confirmed,Open,Sub-task,72000,Medium,London
+MCPU-9918,2747237,2660783,Design Task: Notify parties confirmed,Open,Sub-task,14400,Medium,London
+MCPU-9917,2747232,2660787,Review & Test,Open,Sub-task,14400,Medium,London
+MCPU-9916,2747229,2660787,Dev Task: Notify parties registered,Open,Sub-task,72000,Medium,London
+MCPU-9915,2747228,2660787,Design Task: Notify parties registered,Open,Sub-task,14400,Medium,London
+MCPU-9908,2746728,2736887,QA Implementation - Reg Reporting - Assignment - Input Enrichment and Validation - EE side,Open,Sub-task,10800,Medium,NY
+MCPU-9907,2746726,2736730,QA Implementaion - Reg Reporting - Assignment - Input Enrichment and Validation - OR side,Open,Sub-task,14400,Medium,NY
+MCPU-9905,2746704,2729440,Merge Accept request,Open,Sub-task,0,Medium,NY
+MCPU-9903,2746640,2735214,Review & Test,Open,Sub-task,14400,Medium,London
+MCPU-9902,2746639,2735214,Technical : Schema changes to handle Disable events,Open,Sub-task,57600,Medium,London
+MCPU-9901,2746637,2735214,Design Disable Post Trade Event,Open,Sub-task,57600,Medium,London
+MCPU-9894,2746451,2742625,Review & Test,Open,Sub-task,14400,Medium,London
+MCPU-9893,2746450,2742625,Dev Task: Update position record,Open,Sub-task,57600,Medium,London
+MCPU-9892,2746449,2742625,Design Task: Update position record,Open,Sub-task,14400,Medium,London
+MCPU-9891,2746432,2667219,Data Dictionary Implementation - Add Exercise context- Implementation,In Progress,Sub-task,43200,Medium,UI
+MCPU-9889,2746387,2651805,Data Dictionary implementation for workflow update context,Open,Sub-task,7200,Medium,UI
+MCPU-9888,2746367,2728485,Review & Test,Open,Sub-task,28800,Medium,London
+MCPU-9887,2746366,2728485,Dev Task: Enrich cancels,Open,Sub-task,115200,Medium,London
+MCPU-9879,2746261,2737583,Review & Test,Open,Sub-task,14400,Medium,London
+MCPU-9878,2746260,2737583,Technical: Response handler changes to populate FPML,Open,Sub-task,57600,Medium,London
+MCPU-9877,2746254,2737583,Technical : Request handler or Validation Credit changes to populate Single Payment,In Progress,Sub-task,57600,Medium,London
+MCPU-9875,2746228,2746173,Testing - Submit Regulatory Reporting fields via MQ - Assignment - OR submission,Open,Sub-task,3600,Medium,India
+MCPU-9874,2746227,2746173,Development - Submit Regulatory Reporting fields via MQ - Assignment - OR submission,Open,Sub-task,14400,Medium,India
+MCPU-9873,2746226,2746174,Testing - Submit Regulatory Reporting fields via MQ - Assignment - EE submission,Open,Sub-task,3600,Medium,India
+MCPU-9872,2746225,2746174,Development - Submit Regulatory Reporting fields via MQ - Assignment - EE submission,Open,Sub-task,14400,Medium,India
+MCPU-9871,2746224,2746175,Testing - Submit Regulatory Reporting fields via MQ - Assignment - RP submission,Open,Sub-task,3600,Medium,India
+MCPU-9870,2746223,2746175,Development - Submit Regulatory Reporting fields via MQ - Assignment - RP submission,Open,Sub-task,14400,Medium,India
+MCPU-9869,2746220,2735219,Review and test,Open,Sub-task,28800,Medium,London
+MCPU-9868,2746218,2735219,Development for withdrawing disable,Open,Sub-task,86400,Medium,London
+MCPU-9867,2746215,2735219,Design withdraw disable event,Open,Sub-task,57600,Medium,London
+MCPU-9866,2746198,2737552,Review and Test,Open,Sub-task,14400,Medium,London
+MCPU-9862,2746170,2737552,Technical : Modify Matching score excel sheet as per given criteria.,Open,Sub-task,57600,Medium,London
+MCPU-9846,2746007,2743474,RFB test results,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9844,2745637,2735411,Adding new fields related to Assignment into the data dictionary.,Open,Sub-task,0,Major,India
+MCPU-9839,2745400,2735217,Review & Test,Open,Sub-task,28800,Medium,London
+MCPU-9838,2745399,2735217,Workflow changes,Open,Sub-task,144000,Medium,London
+MCPU-9837,2745398,2735217,Request handler changes,In Progress,Sub-task,57600,Medium,London
+MCPU-9836,2744911,2744910,BE implementation,Open,Sub-task,0,Medium,Kiev
+MCPU-9815,2744878,2665180,QA execution,Open,Sub-task,21600,Medium,Kiev
+MCPU-9814,2744877,2665180,QA Automated execution,Open,Sub-task,21600,Medium,Kiev
+MCPU-9813,2744876,2665180,QA implementation,Open,Sub-task,21600,Medium,Kiev
+MCPU-9812,2744875,2665180,QA design,Open,Sub-task,14400,Medium,Kiev
+MCPU-9811,2744874,2665180,Modify Outbound MQ Configuration UI,Open,Sub-task,57600,Medium,Kiev
+MCPU-9810,2744873,2665180,BE Support for UI,Open,Sub-task,28800,Medium,Kiev
+MCPU-9809,2744872,2663613,QA execution,Open,Sub-task,14400,Medium,Kiev
+MCPU-9808,2744871,2663613,QA Automated execution,Open,Sub-task,14400,Medium,Kiev
+MCPU-9807,2744870,2663613,QA implementation,Open,Sub-task,14400,Medium,Kiev
+MCPU-9806,2744869,2663613,QA design,Open,Sub-task,14400,Medium,Kiev
+MCPU-9805,2744868,2663613,AT test creation or update,Open,Sub-task,57600,Medium,Kiev
+MCPU-9804,2744867,2663613,BE Implementation,Open,Sub-task,57600,Medium,Kiev
+MCPU-9803,2744841,2638788,QA Automated execution ,Open,Sub-task,14400,Medium,Kiev
+MCPU-9802,2744824,2599087,QA execution,Open,Sub-task,10800,Medium,Kiev
+MCPU-9801,2744822,2599087,QA Automated execution,Open,Sub-task,14400,Medium,Kiev
+MCPU-9800,2744821,2599087,QA implementation,Open,Sub-task,14400,Medium,Kiev
+MCPU-9799,2744820,2599087,QA design,Open,Sub-task,7200,Medium,Kiev
+MCPU-9798,2744819,2599087,API Integration and Validation,Open,Sub-task,14400,Medium,Kiev
+MCPU-9797,2744818,2599087,Changes in Entity Configuration Form,Open,Sub-task,14400,Medium,Kiev
+MCPU-9796,2744817,2599087,AT test creation or update,Open,Sub-task,57600,Medium,Kiev
+MCPU-9795,2744816,2599087,BE implementation,Open,Sub-task,57600,Medium,Kiev
+MCPU-9794,2744815,2633256,QA execution,Open,Sub-task,7200,Medium,Kiev
+MCPU-9793,2744814,2633256,QA Automated execution,Open,Sub-task,7200,Medium,Kiev
+MCPU-9792,2744813,2633256,QA implementation,Open,Sub-task,7200,Medium,Kiev
+MCPU-9791,2744812,2633256,QA design,Closed - Complete,Sub-task,7200,Medium,Kiev
+MCPU-9790,2744811,2633256,AT test creation or update,Open,Sub-task,115200,Medium,Kiev
+MCPU-9789,2744810,2633256,BE implementation,Open,Sub-task,57600,Medium,Kiev
+MCPU-9788,2744762,2421036,DB - Migration scripts to add newly created markit groups client groups for existing institutions for the managing reporting preferences in configuration.,Open,Sub-task,72000,Medium,Kiev
+MCPU-9787,2744733,2744724,DD Implementation,Open,Sub-task,43200,Medium,UI
+MCPU-9786,2744727,2744723,Data Dictionary - Implementation,Open,Sub-task,57600,Medium,UI
+MCPU-9785,2744726,2744725,Data Dictionary Implementation,Open,Sub-task,57600,Medium,UI
+MCPU-9781,2744722,2667218,Data Dictionary work for WF Update (If any),Open,Sub-task,28800,Medium,UI
+MCPU-9780,2744721,2651805,Data Dictionary work for Workflow Update,Open,Sub-task,14400,Medium,UI
+MCPU-9779,2744720,2734261,Testing - Regulatory Reporting - Update Position Record for Confirmed Trade/Termination/Amendment for Reg Reporting fields,Open,Sub-task,14400,Medium,India
+MCPU-9778,2744719,2734261,Development - Regulatory Reporting - Update Position Record for Confirmed Trade/Termination/Amendment for Reg Reporting fields,Open,Sub-task,86400,Medium,India
+MCPU-9777,2744718,2735411,Testing - Submit Regulatory Reporting fields via csv/MQ - Assignment - OR submission,Open,Sub-task,14400,Medium,India
+MCPU-9776,2744717,2735411,Development - Submit Regulatory Reporting fields via csv/MQ - Assignment - OR submission,Open,Sub-task,28800,Medium,India
+MCPU-9775,2744716,2741860,Testing - Submit Regulatory Reporting fields via csv/MQ - Assignment - RP submission,Open,Sub-task,14400,Medium,India
+MCPU-9774,2744715,2741860,Development - Submit Regulatory Reporting fields via csv/MQ - Assignment - RP submission,Open,Sub-task,28800,Medium,India
+MCPU-9773,2744714,2741925,Testing - Reg Reporting - Unconfirmed Output Message Mappings and Enrichment rules - Assignment - OR,Open,Sub-task,14400,Medium,India
+MCPU-9772,2744713,2741925,Development - Reg Reporting - Unconfirmed Output Message Mappings and Enrichment rules - Assignment - OR,Open,Sub-task,43200,Medium,India
+MCPU-9771,2744712,2741930,Testing - Reg Reporting - Unconfirmed Output Message Mappings and Enrichment rules - Assignment - EE,Open,Sub-task,14400,Medium,India
+MCPU-9770,2744711,2741930,Development - Reg Reporting - Unconfirmed Output Message Mappings and Enrichment rules - Assignment - EE,Open,Sub-task,43200,Medium,India
+MCPU-9767,2744706,2741937,Testing - Reg Reporting - Allege Output Message Mappings and Enrichment rules - Assignment - OR/RP/EE,Open,Sub-task,14400,Medium,India
+MCPU-9766,2744705,2741937,Development - Reg Reporting - Allege Output Message Mappings and Enrichment rules - Assignment - OR/RP/EE,Open,Sub-task,86400,Medium,India
+MCPU-9765,2744703,2736807,Testing - Submit Regulatory Reporting fields via csv/MQ - Assignment - EE submission,Open,Sub-task,14400,Medium,India
+MCPU-9764,2744702,2736807,Development - Submit Regulatory Reporting fields via csv/MQ - Assignment - EE submission,Open,Sub-task,28800,Medium,India
+MCPU-9763,2744701,2666097,Product Selection in Grids,Open,Sub-task,28800,Medium,UI
+MCPU-9762,2744700,2666097,Entity Selection in Grids,Open,Sub-task,28800,Medium,UI
+MCPU-9756,2744607,2670233,UI: Termination: Reg Fields in Accept Submission,In Progress,Sub-task,28800,Medium,UI
+MCPU-9755,2744582,2670233,UI: Termination: Reg Fields in Accept View,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9753,2744562,2651805,Workflow Update Action - Service ( unconfirmed trade),Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9749,2744523,2670236,E2E Integration Testing,Open,Sub-task,28800,Medium,UI
+MCPU-9748,2744522,2670236,UI: View Reg Reporting fields for Alleged Leg,Open,Sub-task,28800,Medium,UI
+MCPU-9747,2744520,2670236,UI: View Reg Reporting fields for Confirmed Leg,Open,Sub-task,28800,Medium,UI
+MCPU-9746,2744499,2670230,E2E Integration Testing,Open,Sub-task,28800,Medium,UI
+MCPU-9745,2744497,2670230,UI: Accept Allege Update Record and View on Grid,Open,Sub-task,28800,Medium,UI
+MCPU-9744,2744495,2670230,UI: Capture View with fields and validations,Open,Sub-task,28800,Medium,UI
+MCPU-9743,2744490,2650991,E2E Integration Testing,Open,Sub-task,28800,Medium,UI
+MCPU-9742,2744489,2650991,UI: Accept Allege Update Record and View on Grid,In Progress,Sub-task,43200,Medium,UI
+MCPU-9741,2744488,2650991,UI: Capture View with fields and validations,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9737,2744439,2667224,E2E Integration,Open,Sub-task,7200,Medium,UI
+MCPU-9736,2744438,2667224,UI Implemetation - View Messages and View History for Exercise trades,Open,Sub-task,7200,Medium,UI
+MCPU-9735,2744436,2667226,E2E Integration,Open,Sub-task,14400,Medium,UI
+MCPU-9734,2744435,2667226,UI Implementation - View exercise trade form,Open,Sub-task,14400,Medium,UI
+MCPU-9733,2744434,2667221,E2E Integration,Open,Sub-task,14400,Medium,UI
+MCPU-9732,2744433,2667221,UI Implementation - submit exercise fields,Open,Sub-task,14400,Medium,UI
+MCPU-9731,2744431,2667219,E2E Integration,Open,Sub-task,14400,Medium,UI
+MCPU-9729,2744429,2667219,UI Implementation - capture workflow fields in exercise trade capture form for all products,Open,Sub-task,28800,Medium,UI
+MCPU-9728,2744428,2667219,UI Implementation - capture exercise fields in exercise trade capture form for all products,Open,Sub-task,28800,Medium,UI
+MCPU-9726,2744424,2651805,E2E Integration,Open,Sub-task,14400,Medium,UI
+MCPU-9725,2744422,2651805,UI Implementation - validate and submit workflow update fields for all CDX products,Open,Sub-task,14400,Medium,UI
+MCPU-9724,2744420,2651805,UI Implementation - validate and submit workflow update fields for all CDS products,In Progress,Sub-task,28800,Medium,UI
+MCPU-9723,2744419,2651805,UI Implementation - capture form for workflow update for all products,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9716,2744312,2743454,RFB  Test Report,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9705,2744162,2670237,UI Integration:  Reg - Counterparty Rep fields - Termination,Open,Sub-task,14400,Medium,UI
+MCPU-9704,2744160,2670237,UI dev:  Reg - Counterparty Rep fields - Termination:,Open,Sub-task,28800,Medium,UI
+MCPU-9703,2744159,2670226,Reg fields - Modify -Amendment: CDS Index Swaption,Open,Sub-task,14400,Medium,UI
+MCPU-9702,2744158,2670226,Reg fields - Modify - Amendment: CDS on ABS and CDS Index Tranche,In Progress,Sub-task,28800,Medium,UI
+MCPU-9701,2744157,2670226,Reg fields - Modify - Amendment: CDS Loans and CDS Swaption,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9700,2744156,2670226,Reg fields - Modify - Amendment: CDS Fixed Recovery and CDS Recovery Loan,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9699,2744155,2670226,Reg fields - Modify - Amendment: CDS Index and CDS Single Name,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9697,2744147,2729720,Review & Test,Open,Sub-task,57600,Medium,London
+MCPU-9696,2744146,2729720,Dev: Submit & match,Open,Sub-task,86400,Medium,London
+MCPU-9695,2744145,2729720,Design: Submit & match,Open,Sub-task,28800,Medium,London
+MCPU-9694,2744141,2660772,Review & Test,Open,Sub-task,86400,Medium,London
+MCPU-9693,2744139,2660772,Dev: Submit & mismatch,Open,Sub-task,57600,Medium,London
+MCPU-9692,2744138,2660772,Design: Submit & mismatch,Open,Sub-task,28800,Medium,London
+MCPU-9691,2744135,2660786,Review & Test,Open,Sub-task,57600,Medium,London
+MCPU-9690,2744134,2660786,Dev: Register assignment,Open,Sub-task,144000,Medium,London
+MCPU-9689,2744133,2660786,Design: Register assignment ,Open,Sub-task,57600,Medium,London
+MCPU-9688,2744127,2737188,Design Task: Feature runner improvements,Open,Sub-task,86400,Medium,London
+MCPU-9684,2743954,2667218,Add Exercise actions for eligible trades,In Progress,Sub-task,14400,Medium,UI
+MCPU-9682,2743940,2742329,Provide payload,Open,Sub-task,14400,Medium,UI
+MCPU-9681,2743936,2742329,Handle Reporting Update Submission,Open,Sub-task,57600,Medium,UI
+MCPU-9680,2743933,2742329,Add Reporting Update actions for eligible trades,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9557,2743487,2736887,QA Execution - Reg Reporting - Assignment - Input Enrichment and Validation - EE side,Open,Sub-task,7200,Medium,NY
+MCPU-9556,2743486,2736887,QA Design - Reg Reporting - Assignment - Input Enrichment and Validation - EE side,Open,Sub-task,10800,Medium,NY
+MCPU-9555,2743485,2736730,QA Execution - Reg Reporting - Assignment - Input Enrichment and Validation - OR side,Open,Sub-task,7200,Medium,NY
+MCPU-9554,2743483,2736730,QA Design - Reg Reporting - Assignment - Input Enrichment and Validation - OR side,Open,Sub-task,10800,Medium,NY
+MCPU-9553,2743482,2731742,QA Execution - Reg Reporting - Trigger Points - Termination and Amendment update - all Jurisdictions,Open,Sub-task,14400,Medium,NY
+MCPU-9552,2743480,2731742,QA Design - Reg Reporting - Trigger Points - Termination and Amendment update - all Jurisdictions,Open,Sub-task,10800,Medium,NY
+MCPU-9544,2743273,2736887,Reg Dev - Assignment enrichment for EE leg,Open,Sub-task,57600,Medium,NY
+MCPU-9543,2743264,2736730,Reg Dev - Assignment enrichment for OR leg,Open,Sub-task,86400,Medium,NY
+MCPU-9542,2743238,2628915,Dev Task - Decommission unused regreporting APIs from enrich-credit-post,Open,Sub-task,57600,Medium,NY
+MCPU-9541,2743229,2741576,Reg Dev - reg enrichment fix ,Open,Sub-task,57600,Medium,NY
+MCPU-9539,2743227,2729940,Reg Dev - miFIDTRI(MiFIDTransactionIdentifier) missing in Termination ,Open,Sub-task,57600,Medium,NY
+MCPU-9534,2743205,2651559,Reg Dev - Handle Post Match Enrichment scenario for USI Prefix and Value,In Progress,Sub-task,57600,Medium,NY
+MCPU-9531,2743010,2659121,Reg Dev - Check enrichment sequence order,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9530,2743008,2663589,Reg Dev - Handle this scenario where ESMA+CFTC is on one side and ESMA on other,Open,Sub-task,57600,Medium,NY
+MCPU-9529,2743003,2732030,Fix Pre confirmation flag enrichment for Canada jurisdiction ,Open,Sub-task,57600,Medium,NY
+MCPU-9527,2742995,2731742,Reg Dev - Handle determination changes,Open,Sub-task,115200,Medium,NY
+MCPU-9526,2742992,2731742,Reg Dev - Handle determination changes,Open,Sub-task,0,Medium,NY
+MCPU-9525,2742987,2728423,Fix Exercise Trigger Point code,Open,Sub-task,28800,Medium,NY
+MCPU-9524,2742984,2731199,ESMA USI/UTI is not getting enriched on termination,Open,Sub-task,57600,Medium,NY
+MCPU-9523,2742982,2732652,Check error string being generated for USI/UTI,Closed - Complete,Sub-task,28800,Medium,NY
+MCPU-9514,2742376,2646788,Review & Test,Open,Sub-task,14400,Medium,London
+MCPU-9513,2742375,2646788,Dev Task: Uppercase fields,Open,Sub-task,72000,Medium,London
+MCPU-9500,2741948,2723514,Update version of core-normalised-objects in enrich-credit-pre,In Progress,Sub-task,0,Medium,London
+MCPU-9481,2741387,2732634,Review & Test,Open,Sub-task,14400,Medium,London
+MCPU-9480,2741385,2732634,Use new rejection library,Open,Sub-task,57600,Medium,London
+MCPU-9451,2738640,2726639,Update Feed Handlers,Open,Sub-task,28800,Medium,NY
+MCPU-9440,2738493,2726583,Generation Update ,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9438,2738423,2615363,RegServ Dev - Add error map to EventCorrespondence object,In Progress,Sub-task,43200,Medium,NY
+MCPU-9378,2735765,2729242,QA Implementation - Reg Reporting Input Enrichment for ESMA UTI and executionTimestamp - Fee Amendment,Open,Sub-task,7200,Medium,NY
+MCPU-9377,2735763,2729242,QA Design - Reg Reporting Input Enrichment for ESMA UTI and executionTimestamp - Fee Amendment,Open,Sub-task,7200,Medium,NY
+MCPU-9376,2735762,2729242,QA Execution - Reg Reporting Input Enrichment for ESMA UTI and executionTimestamp - Fee Amendment,Open,Sub-task,7200,Medium,NY
+MCPU-9375,2735761,2731236,QA Implementation - Reg Reporting Input Enrichment for ESMA UTI - Exercise,Open,Sub-task,7200,Medium,NY
+MCPU-9374,2735760,2731236,QA Design - Reg Reporting Input Enrichment for ESMA UTI - Exercise,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9373,2735758,2731236,QA Execution - Reg Reporting Input Enrichment for ESMA UTI - Exercise,Open,Sub-task,7200,Medium,NY
+MCPU-9370,2735634,2727600,Development & Dev Testing - enrich-credit-pre,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9301,2733933,2729939,Determination - Upfront Payment,Closed - Complete,Sub-task,28800,Medium,NY
+MCPU-9262,2733474,2660765,QA Execution - Notify Parties Assignment Matched,Open,Sub-task,21600,Medium,London
+MCPU-9261,2733473,2660765,QA Implementation - Notify Parties Assignment Matched,Open,Sub-task,28800,Medium,London
+MCPU-9260,2733472,2660765,QA Design - Notify Parties Assignment Matched,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9259,2733471,2660765,QA Acceptance Test - Notify Parties Assignment Matched,In Progress,Sub-task,0,Medium,London
+MCPU-9258,2733470,2660781,QA Execution - Adjust Assignment Reservation of Notional,Open,Sub-task,28800,Medium,London
+MCPU-9257,2733469,2660781,QA Implementation - Adjust Assignment Reservation of Notional,Open,Sub-task,36000,Medium,London
+MCPU-9256,2733468,2660781,QA Design - Adjust Assignment Reservation of Notional,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9255,2733467,2660781,QA Acceptance Test - Adjust Assignment Reservation of Notional,Open,Sub-task,0,Medium,London
+MCPU-9254,2733466,2660778,QA Execution - Calculate Assignment Reservation of Notional,Open,Sub-task,36000,Medium,London
+MCPU-9253,2733465,2660778,QA Implementation - Calculate Assignment Reservation of Notional,Open,Sub-task,36000,Medium,London
+MCPU-9252,2733464,2660778,QA Design - Calculate Assignment Reservation of Notional,In Progress,Sub-task,28800,Medium,London
+MCPU-9251,2733463,2660778,QA Acceptance Test - Calculate Assignment Reservation of Notional,Open,Sub-task,0,Medium,London
+MCPU-9250,2733462,2660779,QA Execution - Manage Assignment Reservation Record,Open,Sub-task,21600,Medium,London
+MCPU-9249,2733461,2660779,QA Implementation - Manage Assignment Reservation Record,In Progress,Sub-task,28800,Medium,London
+MCPU-9248,2733460,2660779,QA Design - Manage Assignment Reservation Record,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9247,2733459,2660779,QA Acceptance Test - Manage Assignment Reservation Record,Open,Sub-task,0,Medium,London
+MCPU-9246,2733458,2728103,QA Execution - Error Handling Framework Derived from Error CSV Spreadsheet,Open,Sub-task,21600,Medium,London
+MCPU-9245,2733457,2728103,QA Acceptance Test - Error Handling Framework Derived from Error CSV Spreadsheet,Closed - Rejected,Sub-task,0,Medium,London
+MCPU-9244,2733456,2728705,QA Execution - Manage Assignment via FpML (short form),Open,Sub-task,28800,Medium,London
+MCPU-9243,2733455,2728705,QA Implementation - Manage Assignment via FpML (short form),Open,Sub-task,36000,Medium,London
+MCPU-9242,2733453,2728705,QA Design - Manage Assignment via FpML (short form),Closed - Complete,Sub-task,0,Medium,London
+MCPU-9241,2733452,2728705,QA Acceptance Test - Manage Assignment via FpML (short form),In Progress,Sub-task,0,Medium,London
+MCPU-9239,2733450,2660775,QA Acceptance Test - Submit Assignment Reservation,Open,Sub-task,0,Medium,London
+MCPU-9238,2733449,2728238,QA Execution - Remove white listing on tests,Open,Sub-task,28800,Medium,London
+MCPU-9237,2733447,2728238,QA Implementation - Remove white listing on tests,Open,Sub-task,28800,Medium,London
+MCPU-9236,2733446,2728238,QA Design - Remove white listing on tests,Open,Sub-task,28800,Medium,London
+MCPU-9235,2733445,2728238,QA Acceptance Test - Remove white listing on tests,Open,Sub-task,0,Medium,London
+MCPU-9224,2733433,2723514,QA Execution - Remove RED identifiers from Allege notifications to non RED subscriber,Open,Sub-task,14400,Medium,London
+MCPU-9223,2733432,2723514,QA Implementation - Remove RED identifiers from Allege notifications to non RED subscriber,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9222,2733431,2723514,QA Design - Remove RED identifiers from Allege notifications to non RED subscriber,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9221,2733430,2723514,QA Acceptance Test - Remove RED identifiers from Allege notifications to non RED subscriber,Open,Sub-task,0,Medium,London
+MCPU-9217,2733426,2728732,QA Execution - Find Match for Assignment,Open,Sub-task,36000,Medium,London
+MCPU-9216,2733425,2728732,QA Implementation - Find Match for Assignment,Open,Sub-task,43200,Medium,London
+MCPU-9215,2733424,2728732,QA Design - Find Match for Assignment,Open,Sub-task,28800,Medium,London
+MCPU-9214,2733423,2728732,QA Acceptance Test - Find Match for Assignment,Open,Sub-task,0,Medium,London
+MCPU-9207,2733332,2726639,QA Execution - field sroisin - Additional Values,Open,Sub-task,7200,Medium,NY
+MCPU-9205,2733330,2726639,QA Implementation - field sroisin - Additional Values,Open,Sub-task,7200,Medium,NY
+MCPU-9204,2733327,2726639,QA Design - field sroisin - Additional Values,Open,Sub-task,10800,Medium,NY
+MCPU-9201,2733320,2727600,QA Execution - Reg Reporting - Deprecate BasisPoints from Price Notation,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9200,2733319,2727600,QA Implementation - Reg Reporting - Deprecate BasisPoints from Price Notation,Open,Sub-task,7200,Medium,NY
+MCPU-9199,2733318,2727600,QA Design - Reg Reporting - Deprecate BasisPoints from Price Notation,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9185,2732970,2729939,RegServ - Generation - extract Upfront Payment to outgoing message for GTR version 2.0,Closed - Rejected,Sub-task,0,Medium,NY
+MCPU-9184,2732961,2723514,Data Dictionary: Changes for Red Identifiers,Open,Sub-task,14400,Medium,London
+MCPU-9163,2732838,2640741,QA Execution - Fee Amendment - Accept,Open,Sub-task,14400,Medium,UI
+MCPU-9162,2732836,2640741,QA Design - Fee Amendment - Accept,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9161,2732835,2640741,QA Acceptance Test - Fee Amendment - Accept,In Progress,Sub-task,3600,Medium,UI
+MCPU-9142,2732812,2654956,QA Execution - GUI - Trade View - Available Notional TIW Registration Status,Open,Sub-task,14400,Medium,UI
+MCPU-9141,2732811,2654956,QA Design - GUI - Trade View - Available Notional TIW Registration Status,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-9140,2732810,2654956,QA Acceptance Test - GUI - Trade View - Available Notional TIW Registration Status,Open,Sub-task,14400,Medium,UI
+MCPU-9135,2732781,2421036,Add BE checks on entitlements in reg reporting service,Closed - Complete,Sub-task,43200,Medium,Kiev
+MCPU-9133,2732638,2421036,QA implementation - MCPU-947 MCPU-951 MCPU-949 MCPU-952 MCPU-953 / MCPU-960 MCPU-955 MCPU-1218 MCPU-956 MCPU-961 MCPU-948 MCPU-1216 MCPU-960 MCPU-954,Closed - Complete,Sub-task,57600,Medium,Kiev
+MCPU-9128,2732585,2684464,Merge accept request for changes in BatchTradeProcessor,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9120,2732320,2638788,AT test creation or update,Open,Sub-task,230400,Medium,Kiev
+MCPU-9119,2732319,2638788,BE implementation,Closed - Rejected,Sub-task,0,Medium,Kiev
+MCPU-9095,2732067,2660779,Dev Task: Manage assignment reservation,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9092,2732063,2660778,Review & Test,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9091,2732061,2660778,Dev Task: Calculate reservation,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9086,2732004,2660781,Dev Task: Assignment reservation of notional,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9080,2731925,2728103,Dev Task: Error handling framework - Pod integration,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9079,2731924,2728103,Dev Task: Error handling framework - Library creation,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9074,2731904,2728103,Review & Test,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9073,2731902,2728103,Dev Task: Error handling framework - Design,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9062,2731550,2728705,Review & Test,Closed - Complete,Sub-task,0,Medium,London
+MCPU-9061,2731546,2728705,Dev Task: Manage assignment via short form fpml,Closed - Complete,Sub-task,57600,Medium,London
+MCPU-9060,2731543,2728732,Review & Test,Open,Sub-task,14400,Medium,London
+MCPU-9059,2731542,2728732,Dev Task: Find match,Open,Sub-task,230400,Medium,London
+MCPU-9056,2731534,2421036,DB - payloads change from entity configuration - data migration of reporting preferences,Closed - Complete,Sub-task,57600,Medium,Kiev
+MCPU-9055,2731533,2421036,UI - Update UI to reflects the split of reporting preferences from entity configuration to apply more fine grain access rights,Closed - Complete,Sub-task,86400,Medium,Kiev
+MCPU-9054,2731532,2421036,Split reporting preferences from entity configuration to apply more fine grain access rights,Closed - Complete,Sub-task,86400,Medium,Kiev
+MCPU-9053,2731525,2729939,Development - Generating Outgoing Message,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-9049,2731518,2723514,Review & Test,Open,Sub-task,14400,Medium,London
+MCPU-9048,2731517,2723514,Dev Task: Remove red identifiers,In Progress,Sub-task,57600,Medium,London
+MCPU-9032,2730912,2421036,QA Automated execution,Open,Sub-task,28800,Medium,Kiev
+MCPU-9031,2730911,2421036,QA execution,Open,Sub-task,28800,Medium,Kiev
+MCPU-9030,2730910,2421036,QA implementation,Closed - Complete,Sub-task,57600,Medium,Kiev
+MCPU-9029,2730907,2421036,QA design,Closed - Complete,Sub-task,21600,Medium,Kiev
+MCPU-9028,2730906,2421036,AT creation/update,In Progress,Sub-task,144000,Medium,Kiev
+MCPU-9027,2730905,2421036,Manual dev testing on d1,Closed - Rejected,Sub-task,0,Medium,Kiev
+MCPU-9026,2730904,2421036,Add BE checks on entitlements in Confirmation management,In Progress,Sub-task,86400,Medium,Kiev
+MCPU-8958,2729493,2640741,Fee Amendment - Accept: Backend Support,Open,Sub-task,28800,Medium,UI
+MCPU-8957,2729492,2654956,Data Dictionary Implementation - Trade View,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-8956,2729491,2640741,Fee Amendment - Accept: E2E Integration,Open,Sub-task,14400,Medium,UI
+MCPU-8955,2729490,2640741,Fee Amendment - Accept: UI submission,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-8954,2729489,2640741,Fee Amendment - Accept: capture fields,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-8920,2729273,2654956,E2E integration,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-8919,2729271,2654956,UI Implementation,Closed - Complete,Sub-task,0,Medium,UI
+MCPU-8892,2729037,2720073,Enrichment,Open,Sub-task,28800,Medium,NY
+MCPU-8891,2729036,2720073,Transformation in RequestHander and Responsehandler service,Open,Sub-task,28800,Medium,NY
+MCPU-8883,2728937,2726592,QA Execution - Reg Reporting - ESMA Action Type Enrichment - R,Open,Sub-task,7200,Medium,NY
+MCPU-8882,2728936,2726592,QA Implementation - Reg Reporting - ESMA Action Type Enrichment - R,Open,Sub-task,3600,Medium,NY
+MCPU-8881,2728935,2726592,QA Design - Reg Reporting - ESMA Action Type Enrichment - R,Open,Sub-task,7200,Medium,NY
+MCPU-8880,2728934,2726583,QA Execution - Reg Reporting - MiFID II Changes - New Execution Venue Values,Open,Sub-task,7200,Medium,NY
+MCPU-8879,2728932,2726583,QA Implementation - Reg Reporting - MiFID II Changes - New Execution Venue Values,Open,Sub-task,0,Medium,NY
+MCPU-8878,2728930,2726583,QA Design - Reg Reporting - MiFID II Changes - New Execution Venue Values,Open,Sub-task,7200,Medium,NY
+MCPU-8874,2728920,2660850,QA Execution - Reg Reporting - Reporting Update - eventType EventCorrespondence Enrichment,Open,Sub-task,14400,Medium,NY
+MCPU-8873,2728918,2660850,QA Implementation - Reg Reporting - Reporting Update - eventType EventCorrespondence Enrichment,Open,Sub-task,14400,Medium,NY
+MCPU-8872,2728915,2660850,QA Design - Reg Reporting - Reporting Update - eventType EventCorrespondence Enrichment,Open,Sub-task,7200,Medium,NY
+MCPU-8857,2728868,Kiev,CLONE - Integration - Component test and code merge to Master,Open,Sub-task,0,Medium,NY
+MCPU-8856,2728867,Kiev,CLONE - Developement,Open,Sub-task,0,Medium,NY
+MCPU-8855,2728866,Kiev,CLONE - QA Execution - Reg Reporting - Reporting Update Input Enrichment and Validation rules - commonUsiUtiPrefix and commonUsiUtiValue,Open,Sub-task,28800,Medium,NY
+MCPU-8854,2728865,Kiev,CLONE - QA Implementation - Reg Reporting - Reporting Update Input Enrichment and Validation rules - commonUsiUtiPrefix and commonUsiUtiValue,Open,Sub-task,28800,Medium,NY
+MCPU-8852,2728863,Kiev,CLONE - QA Design - Reg Reporting - Reporting Update Input Enrichment and Validation rules - commonUsiUtiPrefix and commonUsiUtiValue,Open,Sub-task,14400,Medium,NY
+MCPU-8817,2728147,2726583,RefData Update - Enumerations,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8816,2728145,2726583,Enrichment - of EventSide,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8759,2725317,2684464,RFB  Test Report,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8749,2724699,2642560,Generation - Integration - Component test and code merge to Master,Open,Sub-task,14400,Medium,NY
+MCPU-8748,2724696,2642560,Report Generation,Open,Sub-task,14400,Medium,NY
+MCPU-8747,2724692,2720750,Reg Reporting -  Report Generation from EventCorrespondence Object - eventType,Closed - Complete,Sub-task,0,Major,NY
+MCPU-8607,2722698,2615363,Confirms Dev - Handle RegServ Notifications,Open,Sub-task,576000,Medium,NY
+MCPU-8606,2722690,2615363,Design Task - What Format message is required from RegServ?,Closed - Rejected,Sub-task,0,Medium,NY
+MCPU-8580,2721324,2554431,BackLog - RecordDateTime enrichment for modifies and news,Closed - Rejected,Sub-task,0,Medium,NY
+MCPU-8579,2721294,2554431,Dev Task - Calculate ESMA actionType during trigger point logic,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8507,2720595,2649112,Integration - Component test and code merge to Master,Open,Sub-task,14400,Medium,NY
+MCPU-8506,2720594,2649112,Development,Closed - Rejected,Sub-task,0,Medium,NY
+MCPU-8505,2720593,2649112,Development,Open,Sub-task,100800,Medium,NY
+MCPU-8504,2720592,2615363,RegServ Dev- Verify that Messages are published to correct topics,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8503,2720591,2615363,RegServ Dev - Publish Response Message Topic After Categorization  ,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8478,2720385,2649112,QA Execution - Reg Reporting - ESMA Action Type Autoregeneration,Open,Sub-task,7200,Medium,NY
+MCPU-8477,2720383,2649112,QA Implementation - Reg Reporting - ESMA Action Type Autoregeneration,Open,Sub-task,3600,Medium,NY
+MCPU-8476,2720382,2649112,QA Design - Reg Reporting - ESMA Action Type Autoregeneration,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8475,2720381,2615363,QA Execution - Reg Reporting - Send Confirmation(Participants) with updated Reg Rptg Status,Open,Sub-task,7200,Medium,NY
+MCPU-8474,2720380,2615363,QA Implementation - Reg Reporting - Send Confirmation(Participants) with updated Reg Rptg Status,Open,Sub-task,14400,Medium,NY
+MCPU-8473,2720379,2615363,QA Design - Reg Reporting - Send Confirmation(Participants) with updated Reg Rptg Status,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8211,2679870,2674683,QA Execution - Reg Reporting - New Fee Amendment - Conf,Open,Sub-task,7200,Medium,NY
+MCPU-8210,2679869,2674683,QA Implementation - Reg Reporting - New Fee Amendment - Conf,Open,Sub-task,7200,Medium,NY
+MCPU-8209,2679867,2674683,QA Design - Reg Reporting - New Fee Amendment - Conf,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8129,2679139,2674683,Integration - Component test and code merge to Master,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8128,2679138,2674683,Development,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-8063,2677441,2642560,Detemrination - Integration - Component test and code merge to Master,Open,Sub-task,14400,Medium,NY
+MCPU-8062,2677440,2642560,EventCorrespondence enrichment,Open,Sub-task,28800,Medium,NY
+MCPU-8001,2677113,2660775,QA Execution - Submit Assignment Reservation,Open,Sub-task,28800,Medium,London
+MCPU-8000,2677111,2660775,QA Implementation - Submit Assignment Reservation,Closed - Complete,Sub-task,36000,Medium,London
+MCPU-7999,2677110,2660775,QA Design - Submit Assignment Reservation,Closed - Complete,Sub-task,21600,Medium,London
+MCPU-7934,2676782,2638788,QA Execution - Credit - De/Reactivate a Legal Entity/Business Unit - Onboarding Status and permitted action,Open,Sub-task,14400,Medium,Kiev
+MCPU-7933,2676781,2638788,QA Implementation - Credit - De/Reactivate a Legal Entity/Business Unit - Onboarding Status and permitted action,Open,Sub-task,14400,Medium,Kiev
+MCPU-7932,2676780,2638788,QA Design - Credit - De/Reactivate a Legal Entity/Business Unit - Onboarding Status and permitted action,Open,Sub-task,10800,Medium,Kiev
+MCPU-7691,2675072,2660775,Review & Test,Closed - Complete,Sub-task,0,Medium,London
+MCPU-7690,2675070,2660775,Submit reservation to TIW,Closed - Complete,Sub-task,115200,Medium,London
+MCPU-7555,2673884,2554431,QA Execution - Reg Reporting - Add ESMA Action Type field - Enrichment,Open,Sub-task,7200,Medium,NY
+MCPU-7554,2673883,2554431,QA Implementation - Reg Reporting - Add ESMA Action Type field - Enrichment,Open,Sub-task,7200,Medium,NY
+MCPU-7553,2673882,2554431,QA Design - Reg Reporting - Add ESMA Action Type field - Enrichment,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-7525,2673853,2642560,QA Execution - Reg Reporting - gtrOutstandingNotional Input Enrichment,Open,Sub-task,7200,Medium,NY
+MCPU-7524,2673852,2642560,QA Implementation - Reg Reporting - gtrOutstandingNotional Input Enrichment,Open,Sub-task,7200,Medium,NY
+MCPU-7523,2673851,2642560,QA Design - Reg Reporting - gtrOutstandingNotional Input Enrichment,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-7483,2672828,2660765,Review & Test,Closed - Complete,Sub-task,0,Medium,London
+MCPU-7482,2672825,2660765,Notify parties of match,Closed - Complete,Sub-task,144000,Medium,London
+MCPU-7094,2665436,2608598,Developement & Dev Testing,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-7093,2665435,2608598,Integration - Component test and code merge to Master,Closed - Rejected,Sub-task,0,Medium,NY
+MCPU-7092,2665431,2608590,Developement,Closed - Rejected,Sub-task,0,Medium,NY
+MCPU-7091,2665430,2608590,Integration - Component test and code merge to Master,Closed - Rejected,Sub-task,0,Medium,NY
+MCPU-7090,2665429,2607738,Integration - Component test and code merge to Master,Open,Sub-task,28800,Medium,NY
+MCPU-7089,2665428,2607738,Developement,Open,Sub-task,28800,Medium,NY
+MCPU-7088,2665427,2606857,Integration - Component test and code merge to Master,Open,Sub-task,28800,Medium,NY
+MCPU-7087,2665425,2606857,Developement,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-7086,2665423,2606854,Integration - Component test and code merge to Master,Open,Sub-task,0,Medium,NY
+MCPU-7085,2665422,2606854,Developement,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-7070,2665210,2663589,Dev Analysis & Fix ,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-6837,2662618,2608598,QA Execution - Reg Reporting Post Match Enrichment rules - Reporting Update,Open,Sub-task,28800,Medium,NY
+MCPU-6836,2662617,2608598,QA Implementation - Reg Reporting Post Match Enrichment rules - Reporting Update,Open,Sub-task,3600,Medium,NY
+MCPU-6835,2662616,2608598,QA Design - Reg Reporting Post Match Enrichment rules - Reporting Update,Open,Sub-task,14400,Medium,NY
+MCPU-6834,2662615,2608590,QA Execution - Validations on the Regulatory Reporting fields submitted on Reporting Update request via MQ,Open,Sub-task,28800,Medium,NY
+MCPU-6833,2662614,2608590,QA Implementation - Validations on the Regulatory Reporting fields submitted on Reporting Update request via MQ,Open,Sub-task,0,Medium,NY
+MCPU-6832,2662613,2608590,QA Design - Validations on the Regulatory Reporting fields submitted on Reporting Update request via MQ,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-6831,2662612,2607738,QA Execution - Reg Reporting Input Enrichment rules - Reporting Update,Open,Sub-task,28800,Medium,NY
+MCPU-6830,2662611,2607738,QA Implementation - Reg Reporting Input Enrichment rules - Reporting Update,Open,Sub-task,14400,Medium,NY
+MCPU-6829,2662610,2607738,QA Design - Reg Reporting Input Enrichment rules - Reporting Update,Open,Sub-task,14400,Medium,NY
+MCPU-6828,2662609,2606857,QA Execution - Reg Reporting - Reporting Update Input Enrichment and Validation rules - eSMAUsiUtiPrefix and eSMAUsiUtiValue,Open,Sub-task,28800,Medium,NY
+MCPU-6827,2662608,2606857,QA Implementation - Reg Reporting - Reporting Update Input Enrichment and Validation rules - eSMAUsiUtiPrefix and eSMAUsiUtiValue,Open,Sub-task,14400,Medium,NY
+MCPU-6826,2662607,2606857,QA Design - Reg Reporting - Reporting Update Input Enrichment and Validation rules - eSMAUsiUtiPrefix and eSMAUsiUtiValue,Open,Sub-task,14400,Medium,NY
+MCPU-6825,2662606,2606854,QA Execution - Reg Reporting - Reporting Update Input Enrichment and Validation rules - commonUsiUtiPrefix and commonUsiUtiValue,Open,Sub-task,28800,Medium,NY
+MCPU-6824,2662605,2606854,QA Implementation - Reg Reporting - Reporting Update Input Enrichment and Validation rules - commonUsiUtiPrefix and commonUsiUtiValue,Open,Sub-task,10800,Medium,NY
+MCPU-6823,2662604,2606854,QA Design - Reg Reporting - Reporting Update Input Enrichment and Validation rules - commonUsiUtiPrefix and commonUsiUtiValue,Open,Sub-task,14400,Medium,NY
+MCPU-6672,2661254,2633256,UI - Remove validation from view,Open,Sub-task,21600,Medium,Kiev
+MCPU-6521,2655721,2639153,QA Implementation - Reg Reporting - Remove Jurisdiction - GTR 2.0,Open,Sub-task,14400,Medium,NY
+MCPU-6520,2655720,2639153,QA Execution - Reg Reporting - Remove Jurisdiction - GTR 2.0,Open,Sub-task,28800,Medium,NY
+MCPU-6519,2655719,2639153,QA Design - Reg Reporting - Remove Jurisdiction - GTR 2.0,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-6518,2655718,2639154,QA Implementation - Reg Reporting - Remove Jurisdiction - GTR 1.0,Open,Sub-task,14400,Medium,NY
+MCPU-6517,2655717,2639154,QA Execution - Reg Reporting - Remove Jurisdiction - GTR 1.0,Open,Sub-task,28800,Medium,NY
+MCPU-6516,2655714,2639154,QA Design - Reg Reporting - Remove Jurisdiction - GTR 1.0,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-6432,2654258,2646788,QA Execution - Enrich Event - Upper Case Business Centres Currencies and Identifiers,Open,Sub-task,10800,Medium,London
+MCPU-6431,2654257,2646788,QA Implementation - Enrich Event - Upper Case Business Centres Currencies and Identifiers,Open,Sub-task,3600,Medium,London
+MCPU-6430,2654256,2646788,QA Design - Enrich Event - Upper Case Business Centres Currencies and Identifiers,Closed - Complete,Sub-task,0,Medium,London
+MCPU-6407,2653748,2639154,Integration - Component test and code merge to Master,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-6406,2653747,2639154,Development,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-6380,2653226,2639153,Integration - Component test and code merge to Master,Closed - Complete,Sub-task,57600,Medium,NY
+MCPU-6379,2653220,2639153,Development,Closed - Complete,Sub-task,144000,Medium,NY
+MCPU-6038,2643704,2641558,QA Execution - Reg Reporting - CFTC Real Time - Amendment Cancel,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-6037,2643703,2641558,QA Implementation - Reg Reporting - CFTC Real Time - Amendment Cancel,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-6036,2643702,2641558,QA Design - Reg Reporting - CFTC Real Time - Amendment Cancel,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-5788,2642476,2641558,Integration - Component test and code merge to Master,Closed - Complete,Sub-task,0,Medium,NY
+MCPU-5786,2642473,2641558,Development,Closed - Complete,Sub-task,57600,Medium,NY
+MCPU-5385,2628917,2628915,Dev Task - Decommission unused regreporting APIs from enrich-credit-pre,Open,Sub-task,172800,Medium,NY

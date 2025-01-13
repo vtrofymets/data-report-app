@@ -2,12 +2,12 @@ package org.vt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.vt.provider.ReportOutputProcessing;
+import org.vt.facade.ReportOutputProcessing;
+import org.vt.service.Array2DReportGenerationImpl;
 import org.vt.service.CSVReportGenerationImpl;
 import org.vt.service.ReportGeneration;
 import org.vt.service.ReportUpload;
 import org.vt.service.StdoutReportUploadImpl;
-import org.vt.service.StreamsReportGenerationImpl;
 
 
 public class ReportGenerationApplication {
@@ -19,7 +19,8 @@ public class ReportGenerationApplication {
 
         String file = "./src/main/resources/input-data.csv";
 //      ReportGeneration reportGeneration = new StreamsReportGenerationImpl();
-        ReportGeneration reportGeneration = new CSVReportGenerationImpl();
+        Array2DReportGenerationImpl reportGeneration = new Array2DReportGenerationImpl();
+//        ReportGeneration reportGeneration = new CSVReportGenerationImpl();
         ReportUpload reportUpload = new StdoutReportUploadImpl();
         ReportOutputProcessing reportOutputProcessing = new ReportOutputProcessing(reportGeneration, reportUpload);
         reportOutputProcessing.reportOutput(file);

@@ -1,4 +1,4 @@
-package org.vt.provider;
+package org.vt.facade;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;

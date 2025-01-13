@@ -34,7 +34,9 @@ public class ReportData {
     }
 
     public ReportData merge(ReportData other) {
-        if (this.team != null && !this.team.equals(other.team)) {
+        if (this.team == null && other.team != null) {
+            this.team = other.team;
+        } else if (this.team != null && !this.team.equals(other.team)) {
             throw new IllegalArgumentException("Teams don't match!");
         }
         this.remainingEffort += other.remainingEffort;

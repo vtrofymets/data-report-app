@@ -6,11 +6,8 @@ import java.util.Objects;
 
 public class ReportData {
 
-    @CsvBindByName(column = "Team")
     private String team;
-    @CsvBindByName(column = "Total Effort")
     private long totalEffort;
-    @CsvBindByName(column = "Remaining Effort")
     private double remainingEffort;
 
     public String getTeam() {

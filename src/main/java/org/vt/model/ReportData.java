@@ -1,7 +1,5 @@
 package org.vt.model;
 
-import com.opencsv.bean.CsvBindByName;
-
 import java.util.Objects;
 
 public class ReportData {

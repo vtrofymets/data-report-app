@@ -7,6 +7,7 @@ import org.vt.model.ReportData;
 import org.vt.utils.CSVUtils;
 
 import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -25,7 +26,7 @@ public class Array2DReportGenerationImpl implements ReportGeneration {
         LOGGER.info("Mapped inputData: {}", inputData.size());
         LOGGER.debug("Mapped inputData: {}", inputData);
 
-        var collect = inputData.stream()
+        Map<ReportData, ReportData> collect = inputData.stream()
                 .map(ReportData::from)
                 .collect(Collectors.groupingBy(Function.identity(),
                         Collector.of(ReportData::new, ReportData::merge, (r1, r2) -> {
@@ -45,18 +46,22 @@ public class Array2DReportGenerationImpl implements ReportGeneration {
 
         for (int i = 0; i < REPORT_HEADERS.length; i++) {
             if (i == REPORT_HEADERS.length - 1) {
-                report.append(REPORT_HEADERS[i]).append("\n");
+                report.append(REPORT_HEADERS[i])
+                        .append("\n");
             } else {
-                report.append(REPORT_HEADERS[i]).append(COMA_SPACE_DELIMITER);
+                report.append(REPORT_HEADERS[i])
+                        .append(COMA_SPACE_DELIMITER);
             }
         }
 
         for (String[] value : values) {
             for (int j = 0; j < values[j].length; j++) {
                 if (j == values[j].length - 1) {
-                    report.append(value[j]).append("\n");
+                    report.append(value[j])
+                            .append("\n");
                 } else {
-                    report.append(value[j]).append(COMA_SPACE_DELIMITER);
+                    report.append(value[j])
+                            .append(COMA_SPACE_DELIMITER);
                 }
             }
         }

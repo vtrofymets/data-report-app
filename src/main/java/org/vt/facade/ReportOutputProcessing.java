@@ -17,7 +17,6 @@ public class ReportOutputProcessing {
     public ReportOutputProcessing(ReportGeneration reportGeneration, ReportUpload reportUpload) {
         this.reportGeneration = Objects.requireNonNull(reportGeneration, "ReportGeneration cannot be null!");
         this.reportUpload = Objects.requireNonNull(reportUpload, "ReportUpload cannot be null!");
-
     }
 
     public void reportOutput(final String filePath) {

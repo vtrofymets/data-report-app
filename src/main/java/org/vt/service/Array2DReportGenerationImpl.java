@@ -11,13 +11,17 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static org.vt.utils.Constants.COMA_SPACE_DELIMITER;
+import static org.vt.utils.Constants.EMPTY_STRING;
 import static org.vt.utils.Constants.REPORT_HEADERS;
 
 public class Array2DReportGenerationImpl implements ReportGeneration {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Array2DReportGenerationImpl.class);
+
+    public static final Stream<List<String>> HEADERS_LIST = Stream.of(REPORT_HEADERS.toList());
 
     @Override
     public String buildDataReport(final String file) {
@@ -33,40 +37,11 @@ public class Array2DReportGenerationImpl implements ReportGeneration {
                             throw new UnsupportedOperationException("Parallel not supported!");
                         })));
 
-        String[][] values = collect.values()
-                .stream()
-                .map(reportData -> new String[]{reportData.getTeam(), String.valueOf(reportData.getTotalEffort()), String.valueOf(reportData.getRemainingEffort())})
-                .toArray(String[][]::new);
-
-        return buildReport(values);
-    }
-
-    private static String buildReport(String[][] values) {
-        StringBuilder report = new StringBuilder();
-
-        for (int i = 0; i < REPORT_HEADERS.length; i++) {
-            if (i == REPORT_HEADERS.length - 1) {
-                report.append(REPORT_HEADERS[i])
-                        .append("\n");
-            } else {
-                report.append(REPORT_HEADERS[i])
-                        .append(COMA_SPACE_DELIMITER);
-            }
-        }
-
-        for (String[] value : values) {
-            for (int j = 0; j < values[j].length; j++) {
-                if (j == values[j].length - 1) {
-                    report.append(value[j])
-                            .append("\n");
-                } else {
-                    report.append(value[j])
-                            .append(COMA_SPACE_DELIMITER);
-                }
-            }
-        }
-
-        return report.toString();
+        return Stream.concat(HEADERS_LIST, collect.values()
+                        .stream()
+                        .map(reportData -> List.of(reportData.getTeam(), String.valueOf(reportData.getTotalEffort()), String.valueOf(reportData.getRemainingEffort()))))
+                .map(list -> list.stream().collect(Collectors.joining(COMA_SPACE_DELIMITER, EMPTY_STRING, "\n")))
+                .collect(Collectors.joining());
     }
 
 }

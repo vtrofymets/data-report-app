@@ -4,6 +4,7 @@ import com.opencsv.bean.CsvToBeanBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
@@ -18,8 +19,8 @@ public final class CSVUtils {
     }
 
     public static <T> List<T> mapToObject(String file, Class<T> clazz) {
-        try (FileReader fileReader = new FileReader(Objects.requireNonNull(file, "file is null"))) {
-            return new CsvToBeanBuilder<T>(fileReader).withType(clazz)
+        try (BufferedReader br = new BufferedReader(new FileReader(Objects.requireNonNull(file, "file is null")))) {
+            return new CsvToBeanBuilder<T>(br).withType(clazz)
                     .build()
                     .parse();
         } catch (IOException ex) {

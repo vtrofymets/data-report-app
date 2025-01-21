@@ -2,6 +2,7 @@ package org.vt.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.vt.model.FileDto;
 import org.vt.model.InputData;
 import org.vt.model.ReportData;
 import org.vt.utils.CSVUtils;
@@ -17,15 +18,15 @@ import static org.vt.utils.Constants.COMA_SPACE_DELIMITER;
 import static org.vt.utils.Constants.EMPTY_STRING;
 import static org.vt.utils.Constants.REPORT_HEADERS;
 
-public class Array2DReportGenerationImpl implements ReportGeneration {
+public class Array2DLocalReportGenerationImpl extends AbstractLocalStorageReportGeneration {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(Array2DReportGenerationImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Array2DLocalReportGenerationImpl.class);
 
     public static final Stream<List<String>> HEADERS_LIST = Stream.of(REPORT_HEADERS.toList());
 
     @Override
-    public String buildDataReport(final String file) {
-        List<InputData> inputData = CSVUtils.mapToObject(file, InputData.class);
+    public String buildDataReport(final FileDto fileDto) {
+        List<InputData> inputData = CSVUtils.mapToObject(fileDto.getFilePath(), InputData.class);
 
         LOGGER.info("Mapped inputData: {}", inputData.size());
         LOGGER.debug("Mapped inputData: {}", inputData);
@@ -39,8 +40,10 @@ public class Array2DReportGenerationImpl implements ReportGeneration {
 
         return Stream.concat(HEADERS_LIST, collect.values()
                         .stream()
-                        .map(reportData -> List.of(reportData.getTeam(), String.valueOf(reportData.getTotalEffort()), String.valueOf(reportData.getRemainingEffort()))))
-                .map(list -> list.stream().collect(Collectors.joining(COMA_SPACE_DELIMITER, EMPTY_STRING, "\n")))
+                        .map(reportData -> List.of(reportData.getTeam(), String.valueOf(reportData.getTotalEffort()),
+                                String.valueOf(reportData.getRemainingEffort()))))
+                .map(list -> list.stream()
+                        .collect(Collectors.joining(COMA_SPACE_DELIMITER, EMPTY_STRING, "\n")))
                 .collect(Collectors.joining());
     }
 

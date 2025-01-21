@@ -2,6 +2,7 @@ package org.vt.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.vt.model.FileDto;
 import org.vt.model.InputData;
 import org.vt.model.ReportData;
 import org.vt.utils.CSVUtils;
@@ -15,13 +16,13 @@ import static org.vt.utils.Constants.COMA_SPACE_DELIMITER;
 import static org.vt.utils.Constants.EMPTY_STRING;
 import static org.vt.utils.Constants.REPORT_TITLE;
 
-public class CSVReportGenerationImpl implements ReportGeneration {
+public class CSVReportLocalGenerationImpl extends AbstractLocalStorageReportGeneration {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CSVReportGenerationImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CSVReportLocalGenerationImpl.class);
 
     @Override
-    public String buildDataReport(final String file) {
-        List<InputData> inputData = CSVUtils.mapToObject(file, InputData.class);
+    public String buildDataReport(final FileDto fileDto) {
+        List<InputData> inputData = CSVUtils.mapToObject(fileDto.getFilePath(), InputData.class);
 
         LOGGER.info("Mapped inputData: {}", inputData.size());
         LOGGER.debug("Mapped inputData: {}", inputData);
@@ -35,7 +36,7 @@ public class CSVReportGenerationImpl implements ReportGeneration {
 
     private static String buildReport(Collection<ReportData> reportDataCollection) {
         return reportDataCollection.stream()
-                .map(CSVReportGenerationImpl::concatValues)
+                .map(CSVReportLocalGenerationImpl::concatValues)
                 .collect(Collectors.joining(EMPTY_STRING, REPORT_TITLE + "\n", EMPTY_STRING));
     }
 

@@ -2,6 +2,7 @@ package org.vt.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.vt.model.FileDto;
 import org.vt.utils.ResourcesUtils;
 
 import java.util.List;
@@ -13,12 +14,12 @@ import static org.vt.utils.Constants.COMA_SPACE_DELIMITER;
 import static org.vt.utils.Constants.EMPTY_STRING;
 import static org.vt.utils.Constants.REPORT_TITLE;
 
-public class StreamsReportGenerationImpl implements ReportGeneration {
+public class StreamsLocalReportGenerationImpl extends AbstractLocalStorageReportGeneration {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(StreamsReportGenerationImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(StreamsLocalReportGenerationImpl.class);
 
-    public String buildDataReport(final String file) {
-        List<String> inputData = ResourcesUtils.readFileLines(file);
+    public String buildDataReport(final FileDto fileDto) {
+        List<String> inputData = ResourcesUtils.readFileLines(fileDto.getFilePath());
 
         LOGGER.debug("Input report data: {}", inputData);
 

@@ -9,6 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.stream.Stream;
 
 public final class ResourcesUtils {
     private static final Logger LOGGER = LoggerFactory.getLogger(ResourcesUtils.class);
@@ -19,9 +20,8 @@ public final class ResourcesUtils {
 
     public static List<String> readFileLines(String fileLocation) {
         LOGGER.info("Try to extract data from file: '{}'", fileLocation);
-        Path path = Paths.get(fileLocation);
-        try {
-            return Files.readAllLines(path, StandardCharsets.UTF_8);
+        try (Stream<String> lines = Files.lines(Paths.get(fileLocation))) {
+            return lines.toList();
         } catch (IOException e) {
             LOGGER.error("Receive error when try to extract data from: {}", fileLocation, e);
             throw new RuntimeException(e);

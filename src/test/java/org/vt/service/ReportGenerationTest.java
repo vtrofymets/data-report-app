@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.vt.utils.DataUtils.EXPECTED_REPORT_CONTENT;
-import static org.vt.utils.DataUtils.FILE_TEST_DATA_PATH;
+import static org.vt.utils.DataUtils.FILE_DTO;
 
 public class ReportGenerationTest {
 
@@ -12,9 +12,9 @@ public class ReportGenerationTest {
 
     @Test
     public void streamsReportGeneration_expectedFileReportContent() {
-        sut = new StreamsReportGenerationImpl();
+        sut = new StreamsLocalReportGenerationImpl();
 
-        String actual = sut.buildDataReport(FILE_TEST_DATA_PATH);
+        String actual = sut.buildDataReport(FILE_DTO);
 
         Assertions.assertNotNull(actual);
         Assertions.assertEquals(EXPECTED_REPORT_CONTENT, actual);
@@ -22,9 +22,9 @@ public class ReportGenerationTest {
 
     @Test
     public void csvReportGeneration_expectedFileReportContent() {
-        sut = new CSVReportGenerationImpl();
+        sut = new CSVReportLocalGenerationImpl();
 
-        String actual = sut.buildDataReport(FILE_TEST_DATA_PATH);
+        String actual = sut.buildDataReport(FILE_DTO);
 
         Assertions.assertNotNull(actual);
         Assertions.assertEquals(EXPECTED_REPORT_CONTENT, actual);

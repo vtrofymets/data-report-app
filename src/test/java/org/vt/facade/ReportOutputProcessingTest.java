@@ -5,15 +5,15 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.vt.service.CSVReportGenerationImpl;
+import org.vt.service.CSVReportLocalGenerationImpl;
 import org.vt.service.StdoutReportUploadImpl;
-import org.vt.utils.DataUtils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 
 import static org.vt.utils.DataUtils.EXPECTED_REPORT_CONTENT;
+import static org.vt.utils.DataUtils.FILE_DTO;
 
 class ReportOutputProcessingTest {
 
@@ -37,12 +37,12 @@ class ReportOutputProcessingTest {
 
     @BeforeEach
     void beforeEach() {
-        sut = new ReportOutputProcessing(new CSVReportGenerationImpl(), new StdoutReportUploadImpl());
+        sut = new ReportOutputProcessing(new CSVReportLocalGenerationImpl(), new StdoutReportUploadImpl());
     }
 
     @Test
     void stdoutOutPutProcess() {
-        sut.reportOutput(DataUtils.FILE_TEST_DATA_PATH);
+        sut.reportOutput(FILE_DTO);
 
         String testOutConsole = testConsole.toString();
 

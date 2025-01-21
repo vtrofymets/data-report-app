@@ -2,6 +2,7 @@ package org.vt.facade;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.vt.model.FileDto;
 import org.vt.service.ReportGeneration;
 import org.vt.service.ReportUpload;
 
@@ -19,9 +20,9 @@ public class ReportOutputProcessing {
         this.reportUpload = Objects.requireNonNull(reportUpload, "ReportUpload cannot be null!");
     }
 
-    public void reportOutput(final String filePath) {
-        LOGGER.info("Start processing file {}", filePath);
-        String report = reportGeneration.buildDataReport(filePath);
+    public void reportOutput(final FileDto fileDto) {
+        LOGGER.info("Start processing file {}", fileDto);
+        String report = reportGeneration.buildDataReport(fileDto);
         reportUpload.uploadReport(report);
     }
 }

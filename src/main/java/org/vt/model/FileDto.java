@@ -33,7 +33,7 @@ public class FileDto {
         return fileSize;
     }
 
-    public Storage getFileLocation() {
+    public Storage getStorage() {
         return storage;
     }
 

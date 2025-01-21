@@ -11,6 +11,7 @@ import org.vt.service.StdoutReportUploadImpl;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.util.List;
 
 import static org.vt.utils.DataUtils.EXPECTED_REPORT_CONTENT;
 import static org.vt.utils.DataUtils.FILE_DTO;
@@ -37,7 +38,7 @@ class ReportOutputProcessingTest {
 
     @BeforeEach
     void beforeEach() {
-        sut = new ReportOutputProcessing(new CSVReportLocalGenerationImpl(), new StdoutReportUploadImpl());
+        sut = new ReportOutputProcessing(List.of(new CSVReportLocalGenerationImpl()), new StdoutReportUploadImpl());
     }
 
     @Test

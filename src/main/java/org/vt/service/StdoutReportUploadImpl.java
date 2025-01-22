@@ -10,6 +10,7 @@ public class StdoutReportUploadImpl implements ReportUpload {
     @Override
     public void uploadReport(final String report) {
         LOGGER.info("Start uploading report: {} to stdout", report.length());
+        LOGGER.debug("Start uploading report: {} to stdout", report);
         System.out.println(report);
     }
 }

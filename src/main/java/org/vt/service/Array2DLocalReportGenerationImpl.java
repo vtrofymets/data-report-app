@@ -28,9 +28,6 @@ public class Array2DLocalReportGenerationImpl extends AbstractLocalStorageReport
     public String buildDataReport(final FileDto fileDto) {
         List<InputData> inputData = CSVUtils.mapToObject(fileDto.getFilePath(), InputData.class);
 
-        LOGGER.info("Mapped inputData: {}", inputData.size());
-        LOGGER.debug("Mapped inputData: {}", inputData);
-
         Map<ReportData, ReportData> collect = inputData.stream()
                 .map(ReportData::from)
                 .collect(Collectors.groupingBy(Function.identity(),
@@ -38,6 +35,13 @@ public class Array2DLocalReportGenerationImpl extends AbstractLocalStorageReport
                             throw new UnsupportedOperationException("Parallel not supported!");
                         })));
 
+        LOGGER.info("Collect reportData: {}", collect.size());
+        LOGGER.debug("Collect reportData: {}", collect);
+
+        return buildReport(collect);
+    }
+
+    private static String buildReport(Map<ReportData, ReportData> collect) {
         return Stream.concat(HEADERS_LIST, collect.values()
                         .stream()
                         .map(reportData -> List.of(reportData.getTeam(), String.valueOf(reportData.getTotalEffort()),

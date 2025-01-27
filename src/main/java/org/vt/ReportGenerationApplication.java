@@ -11,6 +11,8 @@ import org.vt.service.report.generators.TeamAvgReportGenerator;
 import org.vt.service.storage.clients.LocalStorageClient;
 import org.vt.service.storage.clients.StorageClient;
 
+import java.util.List;
+
 
 public class ReportGenerationApplication {
 
@@ -24,9 +26,8 @@ public class ReportGenerationApplication {
 
         StorageClient localReportClient = new LocalStorageClient();
         ReportGenerator teamAvgReportGenerator = new TeamAvgReportGenerator();
-        GenerateReportProcess generateReportProcess = new GenerateReportProcess(localReportClient,
-                teamAvgReportGenerator);
+        GenerateReportProcess generateReportProcess = new GenerateReportProcess(List.of(localReportClient), List.of(teamAvgReportGenerator));
 
-        generateReportProcess.generateProcess(fileDto);
+        generateReportProcess.startProcessReport(fileDto);
     }
 }

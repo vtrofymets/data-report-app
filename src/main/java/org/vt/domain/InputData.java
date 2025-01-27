@@ -1,4 +1,4 @@
-package org.vt.model;
+package org.vt.domain;
 
 import com.opencsv.bean.CsvBindByName;
 

@@ -1,8 +1,8 @@
-package org.vt.model;
+package org.vt.domain;
 
 import java.util.Objects;
 
-public class ReportData {
+public class TeamAvgReportData {
 
     private String team;
     private long totalEffort;
@@ -17,18 +17,22 @@ public class ReportData {
     }
 
     public double getRemainingEffort() {
+        return remainingEffort;
+    }
+
+    public double getAvgEffort() {
         return remainingEffort / totalEffort;
     }
 
-    public static ReportData from(InputData inputData) {
-        ReportData reportData = new ReportData();
-        reportData.team = inputData.getTeam();
-        reportData.remainingEffort = Double.parseDouble(inputData.getOriginalEstimate());
-        reportData.totalEffort++;
-        return reportData;
+    public static TeamAvgReportData of(String team, double estimate) {
+        TeamAvgReportData teamAvgReportData = new TeamAvgReportData();
+        teamAvgReportData.team = team;
+        teamAvgReportData.remainingEffort = estimate;
+        teamAvgReportData.totalEffort++;
+        return teamAvgReportData;
     }
 
-    public ReportData merge(ReportData other) {
+    public TeamAvgReportData merge(TeamAvgReportData other) {
         if (this.team == null && other.team != null) {
             this.team = other.team;
         } else if (this.team != null && !this.team.equals(other.team)) {
@@ -44,7 +48,7 @@ public class ReportData {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        ReportData that = (ReportData) o;
+        TeamAvgReportData that = (TeamAvgReportData) o;
         return Objects.equals(team, that.team);
     }
 
@@ -55,6 +59,6 @@ public class ReportData {
 
     @Override
     public String toString() {
-        return "ReportData{" + "team='" + team + '\'' + ", totalEffort=" + totalEffort + ", remainingEffort=" + remainingEffort + '}';
+        return "TeamAvgReportDto{" + "team='" + team + '\'' + ", totalEffort=" + totalEffort + ", remainingEffort=" + remainingEffort + '}';
     }
 }
